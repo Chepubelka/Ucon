@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af2b282e-52da-4024-be51-f961b2956d83" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/phpmyadmin/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/phpunit-selenium" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/composer" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/codacy/coverage" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/gitonomy/gitlib" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpmyadmin/coding-standard" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/samyoul/u2f-php-server" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/phpmyadmin/vendor/psr/log" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1atTYxs7Ko8q4Roj44TXze8YWI2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Учеба/Guide/Диплом/Airline" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af2b282e-52da-4024-be51-f961b2956d83" name="Default Changelist" comment="" />
+      <created>1587553941067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587553941067</updated>
+      <workItem from="1587553942478" duration="647000" />
+      <workItem from="1587565346834" duration="134040000" />
+      <workItem from="1588025594871" duration="21542000" />
+      <workItem from="1588257876351" duration="651000" />
+      <workItem from="1588756407109" duration="669000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="31" width="800" height="673" key="#Deployment" timestamp="1588756462107">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="278" y="31" width="800" height="673" key="#Deployment/0.0.1366.739@0.0.1366.739" timestamp="1588756462107" />
+    <state x="0" y="222" width="1356" height="290" key="#SQL_Dialects" timestamp="1587814170760">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="0" y="222" width="1356" height="290" key="#SQL_Dialects/0.0.1366.739@0.0.1366.739" timestamp="1587814170760" />
+    <state x="141" y="27" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587839478135">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="141" y="27" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.739@0.0.1366.739" timestamp="1587839478134" />
+    <state x="416" y="118" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587554251799">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="416" y="118" width="524" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.739@0.0.1366.739" timestamp="1587554251799" />
+    <state x="466" y="127" width="424" height="480" key="FileChooserDialogImpl" timestamp="1588757078544">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="466" y="127" width="424" height="480" key="FileChooserDialogImpl/0.0.1366.739@0.0.1366.739" timestamp="1588757078544" />
+    <state x="485" y="89" width="386" height="549" key="NewPhpClassDialog" timestamp="1587836101597">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="485" y="89" width="386" height="549" key="NewPhpClassDialog/0.0.1366.739@0.0.1366.739" timestamp="1587836101597" />
+    <state x="478" y="295" width="389" height="145" key="NewPhpFileDialog" timestamp="1587817073398">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="478" y="295" width="389" height="145" key="NewPhpFileDialog/0.0.1366.739@0.0.1366.739" timestamp="1587817073398" />
+    <state x="172" y="4" key="SettingsEditor" timestamp="1588028801016">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="172" y="4" key="SettingsEditor/0.0.1366.739@0.0.1366.739" timestamp="1588028801016" />
+    <state x="528" y="269" width="309" height="200" key="WebDeployment.AddServerDialog.v.1" timestamp="1588028623592">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="528" y="269" width="309" height="200" key="WebDeployment.AddServerDialog.v.1/0.0.1366.739@0.0.1366.739" timestamp="1588028623592" />
+    <state x="584" y="82" width="197" height="569" key="ftp.server.browser" timestamp="1588028759045">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="584" y="82" width="197" height="569" key="ftp.server.browser/0.0.1366.739@0.0.1366.739" timestamp="1588028759045" />
+    <state x="548" y="263" width="260" height="208" key="publish.login" timestamp="1587565776478">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="548" y="263" width="260" height="208" key="publish.login/0.0.1366.739@0.0.1366.739" timestamp="1587565776478" />
+    <state x="347" y="163" key="run.anything.popup" timestamp="1587830994575">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="347" y="163" key="run.anything.popup/0.0.1366.739@0.0.1366.739" timestamp="1587830994575" />
+    <state x="346" y="60" width="672" height="678" key="search.everywhere.popup" timestamp="1588087159268">
+      <screen x="0" y="0" width="1366" height="739" />
+    </state>
+    <state x="346" y="60" width="672" height="678" key="search.everywhere.popup/0.0.1366.739@0.0.1366.739" timestamp="1588087159268" />
+  </component>
+</project>

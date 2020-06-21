@@ -1,0 +1,564 @@
+*{
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+body{
+    box-sizing: border-box;
+}
+p{
+    margin:0;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+/* header */
+header{
+    background: linear-gradient(to left, #005FA3 50%,#fff 50%);
+}
+#calc-btn{
+    font-size: 20px;
+    color: #005FA3;
+    background: #fff;
+    border-radius: 0;
+    font-weight: bold;
+    height: 68px;
+}
+#calc-btn:hover{
+    color: #fff;
+    background: #0078ae
+}
+#supnav{
+    background-color: #005FA3;
+}
+/* Navigation */
+.burger-item{
+    display: block;
+    width:40px;
+    height:5px;
+    background-color: #005FA3;
+    font-size: 0px;
+    color:transparent;
+    position: relative;
+    right: 0;
+    transition: all 0.3s ease 0s;
+}
+.burger-item:before,
+.burger-item:after{
+    background-color: #005FA3;
+    content: "";
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+.burger-item:before{
+    top:-12px;
+}
+.burger-item:after{
+    bottom: -12px;
+}
+
+.burger-item.active:before{
+    transform:rotate(45deg);
+    top:0;
+}
+.burger-item.active:after{
+    transform:rotate(-45deg);
+    bottom:0;
+}
+.burger-item.active{
+    background-color: transparent;
+}
+
+
+
+#navigation{
+    background-color: #fff;
+    padding: 7px;
+}
+ .navbar.navbar-expand-lg{
+    padding: 0;
+}
+#nav-item{
+    color: #005FA3;
+    display: block;
+    margin-left: 30px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#nav-item:after{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 7px;
+    background-color: #0DC4FF;
+    position: absolute;
+    bottom : 100%;
+    left : 0;
+    z-index: 1;
+}
+#nav-item:hover:after{
+    display: block;
+}
+#btn-nav{
+    /* background-color:#005FA3; */
+}
+.navbar-custom .icon-bar {
+    background-color:#fff;
+}
+
+
+/* Calculator */
+
+
+.error{
+    color: red;
+}
+
+/* Left calc */
+
+ #calculator{
+     margin:79px auto;
+} 
+#calculator-right{
+    box-shadow: -4px -4px 40px rgba(0, 95, 163, 0.25), 4px 4px 40px rgba(0, 95, 163, 0.25);
+}
+#calculator-left{
+    background-color: #005FA3;
+    padding: 0 25px;
+}
+#h1-form{
+    font-size: 36px;
+    font-weight: 700;
+}
+#h1-form:first-child{
+    text-transform: uppercase;
+}
+
+
+
+/* Modal window */
+#myModal{
+    border-radius: 5px;
+}
+
+
+#myModalLabel{
+    font-size: 38px;
+    color: #005FA3;
+    font-weight: 700;
+    margin:auto;
+}
+#myModalBody{
+    font-size:24px;
+    color: #000;
+}
+   .nice-select:after{
+       border-color: #005FA3;
+       width: 15px;
+       height: 15px;
+       position: absolute;
+       top:15px;
+   }
+   span.current{
+    color:#005FA3;
+   }
+   ul.list{
+       color:#005FA3;
+   }
+   .fileform { 
+    background-color: #FFFFFF;
+    border: 1px solid #005FA3;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 38px;
+    overflow: hidden;
+    padding: 2px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    width: 100%;
+}
+ 
+.fileform .selectbutton { 
+    background: url(../img/baseline_search_white_18dp.png) no-repeat 50% 30%;
+    background-color: #005FA3;
+    border: 2px solid #005FA3;
+    border-radius: 2px;
+    float: right;
+    font-size: 16px;
+    height: 99%;
+    line-height: 20px;
+    overflow: hidden;
+    width: 15%;
+}
+ 
+#upload{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    /* font-size: 150px;  */
+    height: 100%; 
+    z-index:1;
+}
+#fileformlabel { 
+    padding-left: 10px;
+    background-color: #fff;
+    color: #005FA3;
+    float: left;
+    height: 100%;
+    /* line-height: 22px; */
+    overflow: hidden;
+    /* padding: 2px; */
+    text-align: left;
+    vertical-align: middle;
+    width:85%;
+    z-index: 5;
+    }
+#phone::placeholder{
+    font-size: 16px;
+    color: #005FA3;
+}
+#calendar{
+    padding-left: 10px;
+    color: #005FA3;
+    background: #fff url(../png/datepick.png) 97% 50% no-repeat;
+    width: 100%;
+}
+.ui-widget-content{
+    background: #fff 50% top repeat-x;
+}
+.ui-widget-header{
+    background: #005FA3 50% 50% repeat-x;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active{
+    background: #0078ae 50% 50% repeat-x;
+    color: #fff;
+    border:1px solid #77d5f7;
+}
+.ui-icon{
+    background-color: #005FA3;
+}
+
+#btn-calc{
+    font-size: 25px;
+    color: #005FA3;
+}
+.nice-select{
+    padding-left: 10px;
+}
+#calc-select::-ms-expand {
+    display: none;
+}
+
+
+   
+   /* Right calc */
+#h1-calc{
+    color:#005FA3;
+    font-size:36px;
+}
+.input-calc{
+    width: 64px;
+    border-color: #005FA3;
+}
+#calc-right-materials{
+    font-size: 18px;
+}
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+.btn.disabled, .btn:disabled{
+    opacity: 1;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    bottom:15px;
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+    
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+    height: 30px;
+    width: 28px;
+    
+    border: 2px solid #005FA3;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 10px;
+    width: 20px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 9px;
+}
+
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+
+.checkbox6::before{
+    background-color: #fff;
+    height: 20px !important;
+    width: 20px !important;
+}
+.checkbox6::after{
+    height: 5px !important;
+    width: 10px !important;
+}
+
+
+
+
+
+
+
+.checkbox input[type="radio"] {
+    opacity: 0;
+}
+.btn.disabled, .btn:disabled{
+    opacity: 1;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    bottom:15px;
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+    
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+    height: 30px;
+    width: 28px;
+    
+    border: 2px solid #005FA3;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 10px;
+    width: 20px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 9px;
+}
+
+
+/*Hide the checkmark by default*/
+.checkbox input[type="radio"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="radio"]:checked + label::after {
+    content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    background-color: #005FA3;
+
+}
+#title-link{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+#footer-link{
+    color:#fff;
+    font-size: 14px;
+}
+
+.accordion {
+    background-color: #005FA3;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.panel {
+    padding: 0 18px;
+    color: #212121;
+    background-color: #005FA3;
+    /* max-height: 0; */
+    overflow: visible;
+    transition: max-height 0.3s ease-out;
+}
+
+/* Modal window */
+.Modal {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background: rgba(0,0,0,0.7);
+    pointer-events: none;
+}
+.title-modal{
+    color:#005FA3;
+    text-align: center;
+}
+.Modal.active {
+    display: flex;
+    pointer-events: auto;
+} 
+.Modal_Body {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background: #FFF;
+}
+#closeModal{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 10px;
+}
+
+
+
+
+ /* Autorisation  */
+.body-autorisation{
+    background: #003459;
+}
+#title-login{
+    color: #005FA3;
+}
+#autorisation{
+     margin-top: 20%;
+     /* margin-bottom: 24%; */ 
+}
+#login-form{
+    background: #fff;
+}
+#text-login{
+    border-color: #005FA3;
+    color: #005FA3;
+}
+#text-login::placeholder{
+    color: #005FA3;
+}
+#login-btn{
+    color: #005FA3;
+    font-weight: bold;
+    border-color: #005FA3;
+}
+
+
+
+/* Admin panel */
+
+
+#h1-admins{
+    color: #005FA3;
+}
+#head-table{
+    background-color: #9DD6FF;
+}
+#deletereq,#deleteuser,#deletecolor{
+    background: #fff;
+    color: red;
+}
+#updateuser{
+    background: #fff;
+    color: green;
+}
